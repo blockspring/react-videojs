@@ -4,8 +4,9 @@ var assign = require('object-assign');
 var cx = require('classnames');
 var blacklist = require('blacklist');
 var React = require('react');
+var createReactClass = require('create-react-class');
 
-module.exports = React.createClass({
+module.exports = createReactClass({
   displayName: 'VideoJS',
 
   componentDidMount: function componentDidMount() {
